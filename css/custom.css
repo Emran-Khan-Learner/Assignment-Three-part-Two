@@ -1,0 +1,192 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.container{
+	/*padding-left: 4.4em;
+	padding-right: 4.4em;*/
+	
+}
+body{
+	/*background-image: linear-gradient(45deg, #d4d4d4, transparent);*/
+	margin: 0px 9em;
+	
+}
+header{
+	overflow: hidden;
+}
+.logo{
+	margin: 40px 0;
+	width: 12%;
+	float: left;
+}
+.logo img{
+	max-width: 100%;
+	/*width: 100%;*/
+}
+nav{
+	margin: 51px 0;
+	float: left;
+	width: 88%;
+	text-align: right;
+	display: inline-block;
+	padding: 6px 0;
+}
+nav ul{
+	list-style-type: none;
+	padding: 0;
+}
+nav ul li{
+	display: inline-block;
+	padding-left: 70px;
+	font-size: 0.9em;
+}
+nav ul li a{
+	color: darkgrey;
+	text-decoration: none;
+}
+.girl-img{
+}
+.girl-img img{
+	max-width: 100%;
+	width: 100%;
+}
+.photodiary{
+	overflow: hidden;
+	padding-left: 4.5em;
+	padding-right: 4.5em;
+}
+.photodiary h5{
+    margin-block-start: 5em;
+    margin-block-end: 1.5em;
+    color: #a7a2a2ad;
+}
+.photodiary h2{
+	font-weight: normal;
+}
+.photodiary p{
+	text-align: justify;
+	margin: 2em 0;
+}
+.photodiary h6{
+	font-size: 0.83em;
+	padding: 10px 0;
+	color: #a7a2a2ad;
+}
+.lifestyle{
+	margin-block-start: 5em;
+	overflow: hidden;
+	padding-left: 4.5em;
+	padding-right: 4.5em;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 4em;
+}
+.lifestyle h5{	
+	margin: 2em 0;
+	color: #a7a2a2ad;
+}
+.lifestyle h2{
+    font-weight: normal;
+}
+.lifestyle p{
+	text-align: justify;
+	margin: 2em 0;
+}
+.lifestyle div img{
+	max-width: 100%;
+	/*width: 100%;*/
+}
+.music{
+	margin-block-start: 5em;
+	overflow: hidden;
+	padding-left: 4em;
+	padding-right: 4em;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 4em;
+}
+.music h5{	
+	margin: 2em 0;
+	color: #a7a2a2ad;
+}
+.music h2{
+    font-weight: normal;
+}
+.music p{
+	text-align: justify;
+	margin: 2em 0;
+}
+.music div img{
+	max-width: 100%;
+	/*width: 100%;*/
+}
+.newsletter{
+	margin-top: 2em;
+	background-color: #c1bfbf;
+	height: 200px;
+}
+.center{
+	text-align: center;
+	padding:  60px 440px;
+}
+.center h2{
+	margin-bottom: 1em;
+	font-weight: normal;
+	font-size: 1.6em;
+	letter-spacing: 5px;
+}
+form{
+	text-align: left;
+	background: none;
+}
+hr{
+	margin-top: 4px;
+	border: 1px solid black;
+}
+button{
+	float: right;
+	width: 35px;
+     height: 20px; 
+}
+.travel{
+	margin-block-start: 5em;
+	overflow: hidden;
+	padding-left: 4em;
+	padding-right: 4em;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 4em;
+}
+.travel h5{	
+	margin: 2em 0;
+	color: #a7a2a2ad;
+}
+.travel h2{
+    font-weight: normal;
+}
+.travel p{
+	text-align: justify;
+	margin: 2em 0;
+}
+.travel div img{
+	max-width: 100%;
+	/*width: 100%;*/
+}
+.button{
+	display: inline-block;
+	margin: 20px 597px;
+}
+.button button{
+	padding: 16px;
+	width: 100px;
+}
+footer{
+	height: 80px;
+	background-color: #c1bfbf;
+	overflow: hidden;
+	padding-left: 4em;
+	padding-right: 4em;
+}
